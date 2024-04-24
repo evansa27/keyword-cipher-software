@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Keyword Cipher</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <script src="p1script.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Keyword Cipher Software</h1>
+    </header>
+    <nav></nav>
+    <main>
+      <form>
+        <filedset>
+          <table>
+            <tr>
+              <td>
+        <fieldset>
+         <p>Keyword: <textarea id="keyword" name="keyword" required></textarea></p> 
+         <p>Keyletter: <textarea id="keyletter" name="keyletter" required></textarea></p> 
+        </fieldset>
+      </td>
+      <td>
+        <fieldset>
+          <p>Plaintext Alphabet: <textarea readonly id="plaintext" name="plaintext" disabled></textarea></p> 
+          <p>Ciphertext Alphabet: <textarea readonly id="ciphertext" name="ciphertext" disabled></textarea></p> 
+        </fieldset>
+        </td>
+        </tr>
+      </table>
+      </filedset>
+        <filedset>
+          <p>Input <textarea id="input" name="input" ></textarea></p> 
+        </filedset>
+        <fieldset>
+          <button type="button" id = "encipher" onclick="getEncipher()">Encipher</button>
+          <button type="button" id = "decipher" onclick="getDecipher()">Decipher</button>
+      </fieldset>
+        <fieldset>
+          <p>Output <textarea readonly id="output" name="output" disabled></textarea></p> 
+        </fieldset>
+        <fieldset>
+          <a href="Cryptanalysis.html"><button type="button" id="cryptanalysis">Cryptanalysis</button></a>
+        </fieldset>
+      </form>
+    </main>
+    <footer>&copy Alanna Evans at NKU 2024</footer>
+  </body>
+  </html>

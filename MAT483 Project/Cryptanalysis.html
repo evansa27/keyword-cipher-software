@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Keyword Cipher</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <script src="p1script.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Keyword Cipher Cryptanalysis</h1>
+    </header>
+    <nav></nav>
+    <main>
+      <form>
+        <fieldset>
+          <p>Input: <textarea id="analysisInput" name="analysisInput"  oninput="runningOutput(this.id)"></textarea></p> 
+        </fieldset>
+       <p id="text"><span>The given alphabet is the cipher alphabet. Please insert the plaintext version below. 
+        The given image shows how often each letter of the alphabet occurs in the English language. This may assist in determining the plaintext. 
+       </span></p>
+        <fieldset>
+            <table>
+                <tr>
+                    <td>
+                        <fieldset>    
+                        <p><span>A:</span> <input type="text" name="a" id="a" maxlength="1" oninput="switchElements(this.id)"></p>
+                        <p><span>B:</span> <input type="text" name="b" id="b" maxlength="1" oninput="switchElements(this.id)"></p>
+                        <p><span>C:</span> <input type="text" name="c" id="c" maxlength="1" oninput="switchElements(this.id)"></p>
+                        <p><span>D:</span> <input type="text" name="d" id="d" maxlength="1" oninput="switchElements(this.id)"></p>
+                        <p><span>E:</span> <input type="text" name="e" id="e" maxlength="1" oninput="switchElements(this.id)"></p>
+                        <p><span>F:</span> <input type="text" name="f" id="f" maxlength="1" oninput="switchElements(this.id)"></p>
+                        <p><span>G:</span> <input type="text" name="g" id="g" maxlength="1" oninput="switchElements(this.id)"></p> 
+                        <p><span>H:</span> <input type="text" name="h" id="h" maxlength="1" oninput="switchElements(this.id)"></p>
+                        <p><span>I:</span> <input type="text" name="i" id="i" maxlength="1" oninput="switchElements(this.id)"></p> 
+                        </fieldset>
+                    </td>
+                    <td>
+                      <fieldset>
+                        <p><span>J:</span> <input type="text" name="j" id="j" maxlength="1" oninput="switchElements(this.id)"></p> 
+                        <p><span>K:</span> <input type="text" name="k" id="k" maxlength="1" oninput="switchElements(this.id)"></p>
+                        <p><span>L:</span> <input type="text" name="l" id="l" maxlength="1" oninput="switchElements(this.id)"></p>
+                        <p><span>M:</span> <input type="text" name="m" id="m" maxlength="1" oninput="switchElements(this.id)"></p>
+                        <p><span>N:</span> <input type="text" name="n" id="n" maxlength="1" oninput="switchElements(this.id)"></p>
+                        <p><span>O:</span> <input type="text" name="o" id="o" maxlength="1" oninput="switchElements(this.id)"></p>
+                        <p><span>P:</span> <input type="text" name="p" id="p" maxlength="1" oninput="switchElements(this.id)"></p>
+                        <p><span>Q:</span> <input type="text" name="q" id="q" maxlength="1" oninput="switchElements(this.id)"></p>
+                        <p><span>R:</span> <input type="text" name="r" id="r" maxlength="1" oninput="switchElements(this.id)"></p>
+                      </fieldset>
+
+                    </td>
+                    <td>
+                        <fieldset>
+                        <p><span>S:</span> <input type="text" name="s" id="s" maxlength="1" oninput="switchElements(this.id)"></p>
+                        <p><span>T:</span> <input type="text" name="t" id="t" maxlength="1" oninput="switchElements(this.id)"></p>
+                        <p><span>U:</span> <input type="text" name="u" id="u" maxlength="1" oninput="switchElements(this.id)"></p>
+                        <p><span>V:</span> <input type="text" name="v" id="v" maxlength="1" oninput="switchElements(this.id)"></p>
+                        <p><span>W:</span> <input type="text" name="w" id="w" maxlength="1" oninput="switchElements(this.id)"></p>
+                        <p><span>X:</span> <input type="text" name="x" id="x" maxlength="1" oninput="switchElements(this.id)"></p>
+                        <p><span>Y:</span> <input type="text" name="y" id="y" maxlength="1" oninput="switchElements(this.id)"></p>
+                        <p><span>Z:</span> <input type="text" name="z" id="z" maxlength="1" oninput="switchElements(this.id)"></p>
+                        </fieldset>
+                    </td>
+                    <td>
+                      <fieldset>
+                        <img src="letter_frequencies.png" alt="This shows how frequently each letter in the alphabet is uesd">
+                        <p>Output: <textarea id="analysisOutput" name="analysisOutput"></textarea></p>
+                        <fieldset><a href="MAT483.html" ><button type="button" id="back">Back</button></a></fieldset>
+                    </fieldset>
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+      </form>
+    </main>
+    <footer>&copy Alanna Evans at NKU 2024</footer>
+  </body>
+  </html>

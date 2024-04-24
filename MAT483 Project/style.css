@@ -1,0 +1,78 @@
+h1, footer{
+text-align: center;
+color:#566d6d; 
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body {
+    background-color: #abcecf;
+    color:#566d6d; 
+}
+main{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+table{
+    width: 100%;
+}
+fieldset {
+    border: 0;
+    padding: 0;
+}
+p{
+    font-size: 25px;
+}
+#text{
+    text-align: center;
+    font-size: 25px;
+}
+#plaintext, #ciphertext{
+    font-size: 20px;
+    width: 575px;
+    height: 30px;
+    text-align: left;
+    display: inline-block;
+    background-color:#daf4f5; 
+}
+#keyword, #keyletter{
+    height: 30px;
+    background-color:#daf4f5; 
+    width: 200px;
+    font-size: 20px;
+    text-align: left;
+    display: inline-block;
+
+}
+#input, #output, #analysisInput{
+    width: 100%;
+    height: 100px;
+    font-size: 25px;
+    background-color:#daf4f5; 
+}
+#analysisOutput, img{
+    width: 100%;
+    height: 200px;
+    font-size: 25px;
+    background-color:#daf4f5; 
+}
+td{
+    vertical-align: top;
+}
+#encipher, #decipher, #cryptanalysis, #back{
+    font-size: 20px;
+    background-color:#daf4f5 ;
+    color: #566d6d; 
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#a, #b, #c, #d, #e, #f, #g, #h, #i, #j, #k, #l, #m, #n,
+ #o, #p, #q, #r, #s, #t, #u, #v, #w, #x, #y, #z {
+    width: 20px;
+    text-align: justify;
+    background-color:#daf4f5 ;
+    color: #566d6d; 
+}
+td p span {
+    width: 2em;
+    text-align: left;
+    display: inline-block;
+}
