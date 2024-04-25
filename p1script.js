@@ -43,7 +43,7 @@ function getEncipher(){
     input.forEach(element => {
         encipheredOutput += cipherAlphabet[alphabet.indexOf(element)];
     });
-    document.getElementsByName("output")[0].value = encipheredOutput; 
+    document.getElementsByName("output")[0].value = encipheredOutput.toUpperCase(); 
 }
 //decipher
 function getDecipher(){
